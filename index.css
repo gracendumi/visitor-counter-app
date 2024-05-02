@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(img/restaruant.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.container {
+    border: 2px solid #ccc; /* Border for the container */
+    border-radius: 10px;
+    padding: 20px;
+    background-color: hsla(0, 20%, 22%, 0.598); /* Background color for the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
+    max-width: 400px; /* Limit container width */
+    width: 100%; /* Ensure container takes full width */
+    text-align: center; /* Center-align container content */
+}
+
+h1, h2, p {
+    margin: 10px;
+    color:white;
+}
+
+#count-el {
+    font-size: 2em;
+    color: blue;
+}
+.btn{
+    display:flex;
+    flex-direction: column;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#save-el {
+    margin-top: 20px;
+}
+
+#welcome-el {
+    margin-top: 20px;
+    font-style: italic;
+}
